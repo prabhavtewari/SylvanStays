@@ -31,9 +31,11 @@ img.logo {
     color: #042303;
 }
 
-.nav-link:hover,
-.nav-link:visited {
+.nav-link:hover{
     color: #0e6c0c;
+}
+.nav-link:visited {
+    color: #032302;
 }
 .nav-item
 {
@@ -43,7 +45,7 @@ img.logo {
 }
 
 body {
-    background-color: #042303;
+    background-color: #020c01;
     color: #FFFCFA;
     min-height: 100vh;
     font-family: "NotoSans";
@@ -245,13 +247,13 @@ justify-content: center;
 align-items: center;
 }
 .contact-btn{
-    background-color: #0000004c;
+    background-color: #3939394c;
     color: #ffffff;
     min-height: 100px;
     border-radius: 10px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    border: solid 0.5px  #fffcfa67;
+    font-size: 1.1rem;
+    /* font-weight: 600; */
+    border: solid 0.5px  #68686867;
     margin-bottom: 10px;
 
 }
@@ -268,5 +270,6 @@ img.logo {
     max-height: 100px;
     min-height: 50px;
     height: 5vh;
+
 }
 }
